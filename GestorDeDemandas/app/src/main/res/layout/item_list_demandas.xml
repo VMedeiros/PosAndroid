@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/button_margin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="?android:attr/listPreferredItemHeight">
+
+        <TextView
+            android:id="@+id/tv_num_demanda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/small_layout_margin"
+            android:layout_weight="0.5"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="100"
+            android:textColor="?android:attr/colorEdgeEffect" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_titulo_demanda"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Demanda Android"
+                android:textColor="?attr/actionModeSplitBackground"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="Status: "
+                    android:textColor="?attr/actionModeSplitBackground"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/tv_status_demanda"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="Homologado"
+                    android:textColor="@color/colorTheme"
+                    android:textSize="@dimen/normal_text_size" />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Prazo"
+                android:textColor="?attr/actionModeSplitBackground"
+                android:textSize="@dimen/normal_text_size"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/tv_prazo_demanda"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:singleLine="true"
+                android:text="20/08/17"
+                android:textColor="@color/colorTheme" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

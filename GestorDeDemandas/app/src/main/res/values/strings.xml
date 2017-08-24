@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Gestor de Demandas</string>
+
+    <string name="crud_gerente">Nome do gerente</string>
+
+    <string name="cadastro">Cadastro</string>
+    <string name="listar">Listar</string>
+    <string name="nova_demanda">Nova Demanda</string>
+    <string name="demandas_cadastradas">Cadastradas</string>
+
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="lista">Lista</string>
+    <string name="grade">Grade</string>
+
+    <string name="nome_gp">Gerente do Projeto</string>
+    <string name="num">Digite o número</string>
+    <string name="titulo">Digite o título</string>
+    <string name="status">Status</string>
+    <string name="responsavel">Digite o nome do responsável</string>
+    <string name="prazo">Selecione uma data</string>
+    <string name="observacao">Observação</string>
+
+    <string-array name="gerentes_projeto">
+
+        <item>Nelson Glauber</item>
+        <item>Daniel Abella</item>
+        <item>Victor Medeiros</item>
+
+    </string-array>
+
+    <string name="desenvolvimento">Em desenvolvimento</string>
+    <string name="impedimento">Em impedimento</string>
+    <string name="homologacao">Em homologação</string>
+    <string name="finalizada">Finalizada</string>
+
+    <string-array name="status_demanda">
+
+        <item>@string/desenvolvimento</item>
+        <item>@string/impedimento</item>
+        <item>@string/homologacao</item>
+        <item>@string/finalizada</item>
+
+    </string-array>
+
+
+
+</resources>
