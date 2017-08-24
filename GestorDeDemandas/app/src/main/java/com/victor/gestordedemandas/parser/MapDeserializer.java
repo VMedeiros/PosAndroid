@@ -16,9 +16,6 @@ import java.util.Map;
 
 public class MapDeserializer extends StdDeserializer<Map<String, String>> {
 
-    /**
-     *
-     */
     private static final long serialVersionUID = 8181560972238497853L;
 
     public MapDeserializer() {

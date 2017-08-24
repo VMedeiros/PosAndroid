@@ -22,7 +22,7 @@
             android:gravity="center"
             android:singleLine="true"
             android:text="100"
-            android:textColor="?android:attr/colorEdgeEffect" />
+            android:textColor="@color/colorTheme" />
 
         <LinearLayout
             android:layout_width="0dp"

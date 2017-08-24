@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 
@@ -58,7 +61,7 @@ public class ListarDemandasActivity extends AppCompatActivity implements Demanda
 
 
     }
-/**
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -67,7 +70,6 @@ public class ListarDemandasActivity extends AppCompatActivity implements Demanda
 
         return true;
     }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -88,12 +90,8 @@ public class ListarDemandasActivity extends AppCompatActivity implements Demanda
 
 
     }
-**/
-    public void inicializarConntroladorDemandas(){
-        mProgressDialog = ProgressDialog.show(this, "Carregando...", "Buscandos demadas no servidor");
-        mControladorDemanda.buscarDemandas();
 
-    }
+
 
 
     @Override
